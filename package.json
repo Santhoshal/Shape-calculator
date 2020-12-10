@@ -1,0 +1,23 @@
+{
+  "name": "shape",
+  "version": "1.0.0",
+  "description": "shape calculator using a design pattern",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santhoshal/Shape-calculator.git"
+  },
+  "keywords": [
+    "Shape",
+    "calculator"
+  ],
+  "author": "Santhosh Kumar A L <santhosh.al@robosoftin.com> (http://www.localhost.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santhoshal/Shape-calculator/issues"
+  },
+  "homepage": "https://github.com/Santhoshal/Shape-calculator#readme"
+}
