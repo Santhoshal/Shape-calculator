@@ -1,4 +1,4 @@
-// console.log("this is the first commit")
+
 var selectedShape;
 var areaResult;
 function setRadioValue() {
@@ -123,3 +123,5 @@ function onClear() {
     document.getElementById("step-2").style.display = "none";
     document.getElementById("step-3").style.display = "none";
 }
+
+// console.log("first commit");

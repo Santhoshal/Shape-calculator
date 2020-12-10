@@ -4,7 +4,9 @@
   "description": "shape calculator using a design pattern",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack "
   },
   "repository": {
     "type": "git",
@@ -14,10 +16,19 @@
     "Shape",
     "calculator"
   ],
-  "author": "Santhosh Kumar A L <santhosh.al@robosoftin.com> (http://www.localhost.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Santhoshal/Shape-calculator/issues"
   },
-  "homepage": "https://github.com/Santhoshal/Shape-calculator#readme"
+  "homepage": "https://github.com/Santhoshal/Shape-calculator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^5.10.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
